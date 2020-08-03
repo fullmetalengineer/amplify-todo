@@ -51,8 +51,6 @@ export default {
         query: listTodos
       });
       this.todos = todos.data.listTodos.items;
-      let info = await Auth.currentUserInfo()
-      console.log(info);
     },
     subscribe() {
       API.graphql({ query: onCreateTodo })
