@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import { API, Auth } from 'aws-amplify';
+import { API } from 'aws-amplify';
 import { createTodo } from './graphql/mutations';
 import { onCreateTodo } from './graphql/subscriptions';
 import { listTodos } from './graphql/queries';
